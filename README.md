@@ -10,6 +10,7 @@ Installation
 The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
 
 Add
+```
 "repositories":
     [
         {
@@ -17,11 +18,11 @@ Add
             "url": "https://github.com/tolik505/yii2-kont-trevor"
         }
     ],
-```
+    ...
 "require": {
-```
+    ...
     "udokmeci/yii2-kont-trevor": "*"
-```
+    ...
 }
 
 to the require section of your `composer.json` file.

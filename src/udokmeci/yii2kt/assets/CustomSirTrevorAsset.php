@@ -11,7 +11,7 @@ class CustomSirTrevorAsset extends AssetBundle
         '//cdnjs.cloudflare.com/ajax/libs/cropper/2.2.4/cropper.min.css',
         '//cdnjs.cloudflare.com/ajax/libs/medium-editor/5.13.0/css/medium-editor.min.css',
         '//cdnjs.cloudflare.com/ajax/libs/medium-editor/5.13.0/css/themes/bootstrap.min.css',
-        'custom-st-trevor-part.less',
+        'custom-st-trevor-part.css',
     ];
     public $js = [
         '//cdnjs.cloudflare.com/ajax/libs/cropper/2.2.4/cropper.min.js',
