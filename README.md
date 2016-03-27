@@ -9,17 +9,20 @@ Installation
 
 The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
 
-Either run
-
+Add
+"repositories":
+    [
+        {
+            "type": "vcs",
+            "url": "https://github.com/tolik505/yii2-kont-trevor"
+        }
+    ],
 ```
-php composer.phar require --prefer-dist udokmeci/yii2-kont-trevor "*"
+"require": {
 ```
-
-or add
-
+    "udokmeci/yii2-kont-trevor": "*"
 ```
-"udokmeci/yii2-kont-trevor": "*"
-```
+}
 
 to the require section of your `composer.json` file.
 
