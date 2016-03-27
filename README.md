@@ -1,5 +1,6 @@
 # yii2-kont-trevor
-yii2 optimized content builder upon Sir Trevor wysiwyg custom components with Mustache, jQuery Cropper and others. 
+yii2 optimized content builder upon Sir Trevor wysiwyg custom components with Mustache, jQuery Cropper and others.
+Adapted for melon.ng
 
 ![Yii2 Kont Trevor in action](https://raw.github.com/udokmeci/yii2-kont-trevor/master/kont-trevor.gif)
 
@@ -48,8 +49,6 @@ On editor depends on perminder-klair/yii2-sir-trevor-js however you can add you 
 ```php
 <?php \udokmeci\yii2kt\assets\CustomSirTrevorAsset::register($this); ?>
 <?= $form->field($model, 'body')->widget(\kato\sirtrevorjs\SirTrevor::classname(),[
-        'debug'=>true,
-        'imageUploadUrl'=>Url::to(['/site/st-upload']),
         'blockTypes' => [ 'Imagetop','Redactor', "Headex", 'Imageleft', 'Twocolumns', 'Threecolumns','Imageright','Textblock','Hr'],
   ]); ?>
 ```
