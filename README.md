@@ -24,7 +24,7 @@ Add
     "udokmeci/yii2-kont-trevor": "*"
     ...
 }
-
+```
 to the require section of your `composer.json` file.
 
 
